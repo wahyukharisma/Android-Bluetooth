@@ -70,14 +70,14 @@ public class MainActivity extends AppCompatActivity implements Runnable{
                 //print command
                 try {
                     try {
-                        Thread.sleep(6000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                     outputStream = mBluetoothSocket.getOutputStream();
 
                     //print title
-                    printCustom("Wahyu Kharisma POS",3,1);
+                    printCustom("Hello World",3,1);
                     printNewLine();
                     printCustom(leftRightAlign("Testing","Succcess"),0,1);
                     printNewLine();
