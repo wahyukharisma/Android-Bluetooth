@@ -34,7 +34,13 @@
             android:id="@+id/btn_print"
             android:layout_width="200dp"
             android:layout_height="60dp"
-            android:text="@string/print"/>
+            android:text="@string/print"
+            android:layout_marginBottom="10dp"/>
+        <Button
+            android:id="@+id/btn_disconnet"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="@string/disconnect"/>
     </LinearLayout>
 
 </LinearLayout>
